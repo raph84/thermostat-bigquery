@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "thermostat-292016",
+  "private_key_id": "aa3b249eec48790ed70963f094f46b05916511d4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCz7PV2prUvKlfo\nLTvooY/UiyEkjv8izvX1Oi2b+a0VY26lx1mwKmKCqn+yBvSmSdi5pUaqpyOpG3Sf\nA8AZoPNKmDFTg8Q4pxEaKWvWENprYey4Q+ZiD6WQJ2skDGXEnOiQ6DT28nIuYYIg\nbMa4fSQEPKE+8WjfIhYvTsikqa0v5P7d42grNxAP4F4jJzv50iCmC4QobOncJM4T\nkzcuxOoi22nrKCfJDFPM8tsN35s8CSWqYcstnVMRBFJtorvurYLtEnJNqF4s1XNZ\ngg4hStfMPQoAQfIrYuk5nT+Of51pIBfLjzN3+t4hY19gZX/+9Da+/rRkKRGtLacc\nXGQcSgeNAgMBAAECggEAJNnTxXcr9UrMIeS/2Cvc8EiFo335MfknBZCinkdTJKYO\nl7weebcYoZAHouALVBKcZZt8/39Hjb9ukZH8UpN1OPI2ahc7BWpsVYolyLx/a85s\n5CmeAjgXrhBwwHucjVogxOsWS/zIl4jHlNoKkmcpDQgY83IQy2CpIAvYCueorb31\nNdwn4goAHaS57UKw2sbJY7XNrkbVJFo4DKHH2RxYPh2VOv6WdWQ/s4KGk1KOT0H6\nLVtt592/EH81ELb+/gMtf+aA8oiPti7kBLssFnwlcg0llA7BCxgulYh786VZQMBM\nqsZMGzZhXKIAedS7pBKqGcSOwobu0aCO3aRQBMbp2QKBgQD9fSzIrElSNXCM7NVh\nK81XJxS4slhTtT6P1yDmGgLdvtGIiyn/0cA62Tegq386BFyMkMRgAFeBJzci5rTt\n4fRXyjV9QCdoK8s57asr1romqXbEGEaPh0DyypgzcZpnOuMXJQiSeADbrdpHQmZX\ntuAX+/1bwel+Kj1XdgXr2jqYyQKBgQC1tTviemMQwI3fnxSd5NS8jjt68S0em/ni\nbQbDyGKHUhwAdgUPpQt9LQAjgWPVhJYli53JGe5EHMQ5sHAsS1fi4oOH9HKXGL1l\n5lrbViRrxFA7vxNVSyb63lx/eQWsnc8exgFMUwplVwLTFsJ3OEud3UAOBHEviM5E\nf5DIzq4epQKBgDcLMmlU+Arw7cK8Ps197HXrV5WPrJxos/AaH9u3dD3gjLFgvrr9\nOgfNWUX7V4IqpkojuXC7QkUaVd+vR0SMlzllAF51StlVASlQEaZQV1XD4LVOLCxI\ni3LtSUWKeqPF5sAE26qqgk0xoD9vDLgpTtoGbwq4vdIWrAFM8JY5ahX5AoGAPUhl\nbQmn1aOLdcr6MhJWKU2zA9DJTdR/H31z1Z4ElOz9Yq5rII6iZFJEBLWDzSRNW1ZO\nHd/v+urUxzwZaOb0OiH5CGZKK2l9nxtksyrHV8063hugUpjpCZzrB1bysff7Pb67\n+1jaXblNy5GWfozu+8v96XxYDBcQsgtv8jm6gb0CgYAqnT8a8Nip8JQSkq1ZC+2h\nfkFIhtkp0GrWat4208ZptXqhniSCpGsYkVETi+XLqy8mXc7SfE9TQF0OsLi+8F9g\nx+snScCIGQycVR4TWpYbIfb2RFuYJungTpAHwSeQIPeQqSHuto3jbRN2XlYSVZpD\nwP+bj0LqFRz2ITeicAD/5A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "thermostat-bigquery@thermostat-292016.iam.gserviceaccount.com",
+  "client_id": "108939930228905227318",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/thermostat-bigquery%40thermostat-292016.iam.gserviceaccount.com"
+}
