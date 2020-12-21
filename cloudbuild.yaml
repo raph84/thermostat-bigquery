@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions', 'deploy', 'accumulation_import', '--trigger-http', '--runtime', 'python37','--service-account','thermostat-bigquery@thermostat-292016.iam.gserviceaccount.com']
+  args: ['functions', 'deploy', 'accumulation_import', '--trigger-http', '--runtime', 'python37','--service-account','thermostat-bigquery@thermostat-292016.iam.gserviceaccount.com',"--region","us-east4"]
   dir: 'functions/accumulation_import'
