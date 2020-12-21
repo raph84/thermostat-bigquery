@@ -67,5 +67,3 @@ def accumulation_import(request):
     print("Loaded {} rows.".format(destination_table.num_rows))
 
     return "Loaded {} rows.".format(destination_table.num_rows)
-
-accumulation_import(None)
