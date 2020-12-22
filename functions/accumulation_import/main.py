@@ -57,12 +57,14 @@ def accumulation_import(request):
         time_partitioning=bigquery.TimePartitioning(field="dt"),
         source_format=bigquery.SourceFormat.NEWLINE_DELIMITED_JSON,
         write_disposition=bigquery.WriteDisposition.WRITE_APPEND,
+        #write_disposition=bigquery.WriteDisposition.WRITE_TRUNCATE,
         autodetect=True,
         maxBadRecords=0)
 
 
     audience = "https://thermostat-agent-ppb6otnevq-uk.a.run.app/metric/accumulate/"
     uri = audience + "?load=4&records=True"
+    #uri = audience + "?load=96&records=True"
 
     data_load = query(uri, audience)
     data_as_file = io.StringIO(data_load, newline='\n')
@@ -84,3 +86,5 @@ def accumulation_import(request):
     print("Loaded {} rows.".format(destination_table.num_rows))
 
     return "Loaded {} rows.".format(destination_table.num_rows)
+
+#accumulation_import(None)

@@ -1,2 +1,3 @@
 /.venv
 /.vscode
+*__.json
