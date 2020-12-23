@@ -40,19 +40,20 @@ def accumulation_import(request):
             bigquery.SchemaField("mpc_indoor_temp_setpoint", "FLOAT64"),
             bigquery.SchemaField("mpc_sat_stpt", "FLOAT64"),
             bigquery.SchemaField("mpc_sys_out_temp", "FLOAT64"),
+            bigquery.SchemaField("current_coil_power", "FLOAT64"),
             bigquery.SchemaField("current_direct_solar_rad", "FLOAT64"),
             bigquery.SchemaField("current_htg_sp", "FLOAT64"),
             bigquery.SchemaField("current_indoor_temp", "FLOAT64"),
             bigquery.SchemaField("current_indoor_temp_setpoint", "FLOAT64"),
             bigquery.SchemaField("current_ma_temp", "FLOAT64"),
-            bigquery.SchemaField("current_occupancy_flag", "FLOAT64"),
+            bigquery.SchemaField("current_occupancy_flag", "BOOL"),
             bigquery.SchemaField("current_outdoor_rh", "FLOAT64"),
             bigquery.SchemaField("current_outdoor_temp", "FLOAT64"),
             bigquery.SchemaField("current_ppd", "FLOAT64"),
             bigquery.SchemaField("current_sys_out_temp", "FLOAT64"),
             bigquery.SchemaField("current_wind_direction", "FLOAT64"),
             bigquery.SchemaField("current_wind_speed", "FLOAT64"),
-            bigquery.SchemaField("current_dt_utc_ts", "FLOAT64")
+            bigquery.SchemaField("current_dt_utc_ts", "INT64")
         ],
         time_partitioning=bigquery.TimePartitioning(field="dt"),
         source_format=bigquery.SourceFormat.NEWLINE_DELIMITED_JSON,
@@ -64,7 +65,7 @@ def accumulation_import(request):
 
     audience = "https://thermostat-agent-ppb6otnevq-uk.a.run.app/metric/accumulate/"
     uri = audience + "?load=4&records=True"
-    #uri = audience + "?load=96&records=True"
+    #uri = audience + "?load=124&records=True"
 
     data_load = query(uri, audience)
     data_as_file = io.StringIO(data_load, newline='\n')
